@@ -21,4 +21,8 @@ add_executable(Coleccion_de_Ejercicios_Flujos
     ejercicio4/ciencia.h
     flujoprograma.cpp
     flujoprograma.h
-    main.cpp)
+    main.cpp
+        ejercicio5/operaciones/operaciones.h
+        ejercicio5/operaciones/operaciones.cpp
+        ejercicio5/stl_set/stl_set.cpp
+        ejercicio5/stl_vector/stl_vector.cpp)

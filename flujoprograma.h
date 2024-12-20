@@ -5,12 +5,7 @@
 #ifndef FLUJOPROGRAMA_H
 #define FLUJOPROGRAMA_H
 
-
-
-class flujoprograma {
-
-};
-
-
+void iniciarCaptura();
+void finalizarCaptura();
 
 #endif //FLUJOPROGRAMA_H
