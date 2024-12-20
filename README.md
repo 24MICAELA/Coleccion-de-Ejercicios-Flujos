@@ -41,6 +41,7 @@ Generalidades
 
 Crea un nuevo proyecto en CLion y añade un archivo main.cpp. Escribe el siguiente código:
 
+```
 #include <iostream>
 
 int main() {
@@ -50,10 +51,12 @@ int main() {
     std::cout << "El número ingresado es: " << num << std::endl;
     return 0;
 }
+```
 Flujos integrados
 
 Modifica el main.cpp anterior para incluir una cadena:
 
+```
 #include <iostream>
 #include <string>
 
@@ -67,10 +70,12 @@ int main() {
     std::cout << "El número ingresado es: " << num << "\nEl texto ingresado es: " << text << std::endl;
     return 0;
 }
+```
 Estado de un flujo
 
 Crea un nuevo proyecto y añade el siguiente código en main.cpp:
 
+```
 #include <iostream>
 #include <fstream>
 
@@ -85,10 +90,12 @@ int main() {
     file.close();
     return 0;
 }
+```
 Formato
 
 Modifica el primer programa para mostrar el número con dos decimales:
 
+```
 #include <iostream>
 #include <iomanip>
 
@@ -99,10 +106,12 @@ int main() {
     std::cout << "El número ingresado es: " << std::fixed << std::setprecision(2) << num << std::endl;
     return 0;
 }
+```
 Flujo de archivos
 
 Crea un nuevo proyecto y añade el siguiente código en main.cpp:
 
+```
 #include <iostream>
 #include <fstream>
 
@@ -122,10 +131,13 @@ int main() {
     file.close();
     return 0;
 }
+```
+
 Flujo de cadenas
 
 Crea un nuevo proyecto y añade el siguiente código en main.cpp:
 
+```
 #include <iostream>
 #include <sstream>
 
@@ -141,10 +153,12 @@ int main() {
     std::cout << "El texto desde el flujo de cadena es: " << text_from_ss << std::endl;
     return 0;
 }
+```
 Argumentos locales
 
 Crea un nuevo proyecto y añade el siguiente código en main.cpp:
 
+```
 #include <iostream>
 #include <fstream>
 
@@ -165,4 +179,5 @@ int main(int argc, char* argv[]) {
     file.close();
     return 0;
 }
+```
 Para este último ejercicio, ejecuta el programa desde la terminal con un argumento, por ejemplo: ./myprogram "Hola mundo".
